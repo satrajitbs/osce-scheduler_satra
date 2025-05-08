@@ -1,0 +1,20 @@
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html ng-app="osceApp">
+<head>
+  <meta charset="utf-8">
+  <title>OSCE Scheduler</title>
+  <link rel="stylesheet" href="https://unpkg.com/primeng/resources/themes/saga-blue/theme.css" />
+  <link rel="stylesheet" href="https://unpkg.com/primeng/resources/primeng.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/primeicons/primeicons.css" />
+</head>
+<body ng-controller="SchedulerController">
+  <h2>OSCE Schedule Uploader</h2>
+  <input type="file" multiple onchange="angular.element(this).scope().handleFiles(this.files)" />
+  <button ng-click="generateSchedule()">Generate Schedule</button>
+  <pre>{{schedule | json}}</pre>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

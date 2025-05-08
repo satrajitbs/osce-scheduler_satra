@@ -1,0 +1,44 @@
+[
+    {
+        "adminId": "admin_1",
+        "tracks": [
+            {
+                "trackId": "track_1",
+                "stations": [
+                    "station_1",
+                    "station_2",
+                    "station_3"
+                ]
+            },
+            {
+                "trackId": "track_2",
+                "stations": [
+                    "station_1",
+                    "station_2",
+                    "station_3"
+                ]
+            }
+        ]
+    },
+    {
+        "adminId": "admin_2",
+        "tracks": [
+            {
+                "trackId": "track_1",
+                "stations": [
+                    "station_1",
+                    "station_2",
+                    "station_3"
+                ]
+            },
+            {
+                "trackId": "track_2",
+                "stations": [
+                    "station_1",
+                    "station_2",
+                    "station_3"
+                ]
+            }
+        ]
+    }
+]
