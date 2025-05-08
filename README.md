@@ -26,7 +26,7 @@ Node.js (v16 or higher)
 npm (comes with Node.js)
 AngularJS (loaded via CDN in the app)
 
-##Setup Instructions
+## Setup Instructions
 ### Clone the Repository
 ```bash
 git clone git@github.com:satrajitbs/osce-scheduler_satra.git
