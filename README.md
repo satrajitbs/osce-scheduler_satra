@@ -29,6 +29,6 @@ AngularJS (loaded via CDN in the app)
 ##Setup Instructions
 ### Clone the Repository
 ```bash
-git clone [your-repository-url]
+git clone git@github.com:satrajitbs/osce-scheduler_satra.git
 cd osce-scheduler
 ```
