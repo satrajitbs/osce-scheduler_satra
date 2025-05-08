@@ -2,8 +2,18 @@
 
 A web-based application for generating Objective Structured Clinical Examination (OSCE) schedules with automated time slot allocation and participant management.
 
-## Directory
-osce-scheduler/ ├── public/ │ ├── index.html │ └── app.js ├── server.js ├── package.json ├── admin_template.json ├── examinees_sample.xlsx ├── examiners_sample.xlsx └── clients_sample.xlsx
+## Directory Structure
+- **`public/`** - Frontend files
+  - `index.html` - Main application page
+  - `app.js` - AngularJS controller
+- **Root files** - Backend and configuration
+  - `server.js` - Node.js/Express server
+  - `package.json` - Node.js dependencies
+  - `admin_template.json` - Exam track configuration
+- **Sample data files** (Excel format)
+  - `examinees_sample.xlsx` - Examinee participants
+  - `examiners_sample.xlsx` - Examiner participants
+  - `clients_sample.xlsx` - Standardized clients
 
 ## Features
 File upload for examinees, examiners, and standardized clients
