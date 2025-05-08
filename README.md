@@ -30,5 +30,10 @@ AngularJS (loaded via CDN in the app)
 ### Clone the Repository
 ```bash
 git clone git@github.com:satrajitbs/osce-scheduler_satra.git
-cd osce-scheduler
+cd osce-scheduler_satra
+```
+### Run
+``` bash
+npm install
+npm start
 ```
